@@ -60,7 +60,7 @@ It reads student information from a CSV file, checks whether the details are val
 
 ### Step 1: Open the project folder
 
-Open the "student_registration" folder in VS Code.
+Open the `student_registration` folder in VS Code.
 
 ### Step 2: Run the main program
 
@@ -94,12 +94,12 @@ python -m unittest discover -s tests -v
 
 ## CSV Files
 
-- "contacts.csv" contains the original student contact details.
-- "students_clean.csv" stores the valid student records.
+- `contacts.csv` contains the original student contact details.
+- `students_clean.csv` stores the valid student records.
 
 ## Project Evidence
 
-The "proof" folder contains test cases and actual program execution logs.
+The `proof` folder contains test cases and actual program execution logs.
 
 ## Conclusion
 
