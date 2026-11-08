@@ -1,0 +1,45 @@
+python loader.py
+
+PS D:\DATA SCIENCE\student_registration> python -u "d:\DATA SCIENCE\student_registration\loader.py"
+Rejected: Ananya Sen - Phone must start with 6, 7, 8 or 9
+Rejected: Rahul Das - Phone must contain 10 digits
+Rejected: Sneha Roy - Duplicate phone number
+Rejected:  - Name is empty
+Rejected: Vikram Singh - Email must contain one @ symbol
+Rejected: Arjun Kapoor - Email domain must contain a dot
+Rejected: Aditya Joshi - Email must not contain spaces
+Rejected: Siddharth Rao - Email domain must contain a dot
+
+----- INGESTION REPORT -----
+Total records: 20
+Accepted records: 12
+Invalid records: 7
+Duplicate records: 1
+
+python main.py
+PS D:\DATA SCIENCE\student_registration> python -u "d:\DATA SCIENCE\student_registration\main.py"
+
+Rejected: Ananya Sen - Phone must start with 6, 7, 8 or 9
+Rejected: Rahul Das - Phone must contain 10 digits
+Rejected: Sneha Roy - Duplicate phone number
+Rejected:  - Name is empty
+Rejected: Vikram Singh - Email must contain one @ symbol
+Rejected: Arjun Kapoor - Email domain must contain a dot
+Rejected: Aditya Joshi - Email must not contain spaces
+Rejected: Siddharth Rao - Email domain must contain a dot
+
+----- INGESTION REPORT -----
+Total records: 20
+Accepted records: 12
+Invalid records: 7
+Duplicate records: 1
+
+====== STUDENT REGISTRATION SYSTEM ======
+1. View Students
+2. Search Student
+3. Register Student
+4. Update Student
+5. Delete Student
+6. Analytics Report
+7. Exit
+Enter your choice: 
